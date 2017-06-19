@@ -1,1 +1,9 @@
+
+# Delete Entire Line which includes a certain word
+
 ^.*word you want to delete.*\n
+
+# Strip HTML tags and all the content held between them
+      # Use the regular expression (REGEX) --> "(.*?)
+
+(?s)<table(.*?)</table> OR (?s)<div(.*?)<\div>
